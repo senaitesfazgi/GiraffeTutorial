@@ -20,11 +20,11 @@ namespace GiraffeTutorial
             Song song2 = new Song("So will I", "HILL Song", 5);
             Console.WriteLine(song2.getSongCount());
 
-           // Console.WriteLine(song1.title);  
-           // Console.WriteLine(song1.artist);
-             
-            
+            // Console.WriteLine(song1.title);  
+            // Console.WriteLine(song1.artist);
 
+
+            UsefulTools.SayHi("Senai");
             Console.ReadLine();
 
 
