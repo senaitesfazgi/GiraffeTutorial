@@ -25,7 +25,23 @@ namespace GiraffeTutorial
 
 
             UsefulTools.SayHi("Senai");
+
+
+            Chef chef = new Chef();
+           // chef.MakeChicken();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianchef = new ItalianChef();
+            //italianchef.MakeChicken();
+            //italianchef.MakePasta();
+            italianchef.MakeSpecialDish();
+
+
+
             Console.ReadLine();
+
+
+
 
 
         }
